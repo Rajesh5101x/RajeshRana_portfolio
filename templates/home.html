@@ -1,8 +1,26 @@
 {% extends 'base.html' %}
 
 {% block contect %}
-    <img src="p.jpg" alt="Profile picture" />
-    <h1>Hello, I'm Rajesh Rana</h1>
-    <p>Creative and analytical software developer passionate about leveraging technology to solve real-world problems.</p>
+    <section id="home" class="section">
+        <div class="container">
+          <div class="glass-card">
+            <div class="profile-section">
+              <div class="profile-image">
+                <img 
+                  src="/static/images/p.png" 
+                  alt="Profile picture" 
+                  class="profile-img"
+                />
+              </div>
+              <div class="profile-content">
+                <h1 class="section-title">Hello, I'm Rajesh Rana</h1>
+                <p class="section-text profile-description">
+                  BTech CSE Student at GIET University | Self-Learner in Web Development | Passionate about Building Innovative Solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 {% endblock %}
 

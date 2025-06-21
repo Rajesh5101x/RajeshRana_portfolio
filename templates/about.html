@@ -1,27 +1,47 @@
 {% extends 'base.html' %}
 
 {% block contect %}
-    <h1>About Me</h1>
-    <p>
-      I'm a BTech student specializing in AI & ML at GIET University. Enthusiastic about learning new tools and frameworks,
-      with a track record of collaborating across teams to deliver impactful results.
-    </p>
+    <section id="about" class="section">
+        <div class="container">
+          <div class="glass-card">
+            <h1 class="section-title">About Me</h1>
+            <p class="section-text">
+              I'm a BTech student specializing in AI & ML at GIET University. Enthusiastic about learning new tools and frameworks,
+              with a track record of collaborating across teams to deliver impactful results.
+            </p>
 
-    <h2>Education</h2>
-    <ul>
-      <li>GIET University, Gunupur — BTech, AI & ML (2024-Present)</li>
-      <li>Jhadeswar International School, Balasore - CBSE XII (74%)</li>
-      <li>D.P.S. Vidyapeeth, Bhadrak — CBSE X (76%)</li>
-    </ul>
+            <h2 class="subsection-title">Education</h2>
+            <ul class="education-list">
+              <li class="education-item">
+                <strong>GIET University, Gunupur</strong> — BTech, AI & ML (2024-Present)
+              </li>
+              <li class="education-item">
+                <strong>Jhadeswar International School, Balasore</strong> - CBSE XII (74%)
+              </li>
+              <li class="education-item">
+                <strong>D.P.S. Vidyapeeth, Bhadrak</strong> — CBSE X (76%)
+              </li>
+            </ul>
 
-    <h2>Achievements</h2>
-    <ul>
-      <li>Best Student Award in Science (CBSE X)</li>
-      <li>Android app that improved user engagement by 30%</li>
-    </ul>
+            <h2 class="subsection-title">Achievements</h2>
+            <ul class="achievements-list">
+              <li class="achievement-item">Best Student Award in Science (CBSE X)</li>
+              <li class="achievement-item">Android app that improved user engagement by 30%</li>
+            </ul>
 
-    <h2>Resume</h2>
-    <p>
-      <a href="https://drive.google.com/file/d/1-lY1a1sqg5aVDp8mtF9IoPmjtZknCDpN/view?usp=sharing" target="_blank" >View Resume</a>
-    </p>
+            <h2 class="subsection-title">Resume</h2>
+            <p>
+              <a 
+                href="https://drive.google.com/file/d/1-lY1a1sqg5aVDp8mtF9IoPmjtZknCDpN/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="resume-link"
+              >
+                View Resume
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
 {% endblock %}

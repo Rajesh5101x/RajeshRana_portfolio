@@ -1,11 +1,34 @@
 {% extends 'base.html' %}
 
 {% block contect %}
-    <h1>Contact Me</h1>
-    <p>Gmail: <a href="mailto:rr0656966@gmail.com">rr0656966@gmail.com</a></p>
-    <p>
-      <a href="https://github.com/Rajesh5101x" target="_blank">GitHub</a> ·
-      <a href="https://www.linkedin.com/in/rajesh-rana-9b575b2a7/" target="_blank">LinkedIn</a>
-    </p>
+    <section id="contact" class="section">
+        <div class="container">
+          <div class="glass-card">
+            <h1 class="section-title">Contact Me</h1>
+            <div class="contact-info">
+              <p class="contact-item">
+                <span class="contact-label">Gmail:</span> 
+                <a href="mailto:rr0656966@gmail.com" class="contact-link">rr0656966@gmail.com</a>
+              </p>
+              <div class="social-links">
+                <a class="social-link"  href="https://github.com/Rajesh5101x"  target="_blank"  aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a class="social-link"  href="https://www.linkedin.com/in/rajesh-rana-9b575b2a7/"
+                    target="_blank"  aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a class="social-link"  href="https://www.instagram.com/officialrajeshrana/"
+                    target="_blank"  aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="contact-cta">Contact Me!</h3>
+          </div>
+        </div>
+      </section>
 
 {% endblock %}
